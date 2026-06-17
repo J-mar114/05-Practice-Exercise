@@ -13,13 +13,13 @@ This file contains 13 SQL exercises covering filtering, joins, grouping, updates
 - new_customers
 - promo_signups
 
-## EXERCISE 1
-- CREATE TABLE promo_signups (
-- customer_id INTEGER,
-- customer_name TEXT,
-- email TEXT,
-- region TEXT
-- );
+## EXERCISE 1<br>
+ CREATE TABLE promo_signups (<br>
+ customer_id INTEGER,<br>
+ customer_name TEXT,<br>
+ email TEXT,<br>
+ region TEXT<br>
+ );
 
 INSERT INTO promo_signups (customer_id, customer_name, email, region)
 SELECT customer_id, customer_name, email, region
