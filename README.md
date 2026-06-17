@@ -7,19 +7,19 @@ Jaymar Budduan
 This file contains 13 SQL exercises covering filtering, joins, grouping, updates, and data transformation using SQLite.
 
 # TABLES USED
-customers
-sales
-inventory
-new_customers
-promo_signups
+- customers
+- sales
+- inventory
+- new_customers
+- promo_signups
 
 ## EXERCISE 1
-CREATE TABLE promo_signups (
-customer_id INTEGER,
-customer_name TEXT,
-email TEXT,
-region TEXT
-);
+-CREATE TABLE promo_signups (
+-customer_id INTEGER,
+-customer_name TEXT,
+-email TEXT,
+-region TEXT
+-);
 
 INSERT INTO promo_signups (customer_id, customer_name, email, region)
 SELECT customer_id, customer_name, email, region
