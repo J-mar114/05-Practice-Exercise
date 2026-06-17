@@ -1,23 +1,23 @@
-SQL EXERCISE SET
+##SQL EXERCISE SET
 
 AUTHOR
 Jaymar Budduan
 
-==================================================
+##==================================================
 
 OVERVIEW
 This file contains 13 SQL exercises covering filtering, joins, grouping, updates, and data transformation using SQLite.
 
-==================================================
+##==================================================
 
-TABLES USED
+##TABLES USED
 customers
 sales
 inventory
 new_customers
 promo_signups
 
-==================================================
+##==================================================
 
 EXERCISE 1
 CREATE TABLE promo_signups (
